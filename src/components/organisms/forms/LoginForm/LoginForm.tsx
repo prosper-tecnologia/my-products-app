@@ -29,6 +29,7 @@ export function LoginForm ({ submit }: Props) {
                 control={control}
                 rules={{ required: true }}
                 style={{ marginBottom: 10 }}
+                id="usuario"
             />
 
             <TextInput
@@ -38,11 +39,13 @@ export function LoginForm ({ submit }: Props) {
                 rules={{ required: true }}
                 type="password"
                 style={{ marginBottom: 10 }}
+                id="senha"
             />
 
             <Button
                 variant="contained"
                 onClick={handleSubmit(submit)}
+                id="login"
             >
                 Login
             </Button>
