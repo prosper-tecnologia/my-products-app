@@ -35,7 +35,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test -- --config=jest.config.ts",
+    "test": "craco test",
     "eject": "craco eject"
   },
   "eslintConfig": {
