@@ -21,6 +21,7 @@ export function ProductsList() {
 
     return (
         <Box display="flex" flexWrap="wrap" justifyContent="center">
+
             {products.map(({ id, title, description, thumbnail }) => {
                 return <ProductCard
                     id={id}
@@ -30,6 +31,7 @@ export function ProductsList() {
                     thumbnail={thumbnail}
                 />;
             })}
+
         </Box>
     );
 }
